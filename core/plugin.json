@@ -1,11 +1,16 @@
 {
-    "name": "mindustry-plugin-boilerplate",
-    "displayName": "GenesisCommon",
+    "name": "genesis-template",
+    "displayName": "GenesisTemplate",
     "author": "Kennarddh",
     "description": "Description",
     "minGameVersion": "146",
     "java": true,
-    "main": "kennarddh.boilerplate.core.Main",
+    "main": "kennarddh.template.core.GenesisTemplate",
     "version": "1.0.0",
-    "repo": "kennarddh-mindustry/kotlin-mindustry-plugin-boilerplate"
+    "repo": "kennarddh-mindustry/genesis-template",
+    "dependencies": [
+        "kotlin-runtime",
+        "genesis-core",
+        "genesis-common"
+    ]
 }
